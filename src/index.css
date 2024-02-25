@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@font-face {
+  font-family: Imported;
+  src: url(./font/op.ttf);
+}
+
+/* base styles */
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background: linear-gradient(
+    179.4deg,
+    rgb(12, 20, 69) -16.9%,
+    rgb(71, 30, 84) 119.9%
+  );
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("./img/b1.jpg");
+  background-size: cover; */
+  color: #fff;
+}
+
+span {
+  font-family: Imported, sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+}
